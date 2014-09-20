@@ -25,7 +25,6 @@ and what you should write is the favNum function that makes the code above work,
 */
 
 
-
   //Code Here for first
   
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
