@@ -43,6 +43,11 @@ first(names, function(firstName){
 
   //Code Here for last
 
+var last = function(list, cb) {
+  cb(list[6]);
+
+}
+
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 last(names, function(lastName){
   console.log('The last name in names is ', lastName);
@@ -61,6 +66,11 @@ last(names, function(lastName){
 
   //Code Here for multiply
 
+var multiply = function(num1, num2, cb){
+  cb(num1*num2);
+
+}
+
 multiply(4, 3, function(answer){
   console.log('The answer is ', answer); //should console.log 12
 })
@@ -76,6 +86,11 @@ multiply(4, 3, function(answer){
 
 
   //Code Here for contains
+
+var contains = function(list, nombre ,cb) {
+    cb(list, nombre, function(yes));
+
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 contains(names, 'Colt', function(yes){
